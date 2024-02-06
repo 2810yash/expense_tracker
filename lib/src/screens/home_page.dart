@@ -181,7 +181,7 @@ class _HomePageState extends State<HomePage> {
                 startOfWeek: value.startOfWeekDate(),
                 firstWeek: DateTime.now()),
 
-            const SizedBox(height: 30.0),
+            const SizedBox(height: 35.0),   //im main Branch
 
             //expense list By Hive Database
             Container(
