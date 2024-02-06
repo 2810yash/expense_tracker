@@ -84,7 +84,7 @@ class ExpenseData extends ChangeNotifier{
   DateTime startOfWeekDate(){
     DateTime? startOfWeek;
 
-    //get todays date
+    //get todays date&time
     DateTime today = DateTime.now();
 
     //going backwards from today to find nearest sunday
